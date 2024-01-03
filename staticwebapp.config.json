@@ -1,18 +1,13 @@
 {
-  "trailingSlash": "never",
   "routes": [
     {
-      "route": "/index.html",
-      "rewrite": "./public/index.html"
-    },
-    {
-      "route": "./public/index.html",
-      "rewrite": "./public/index.html"
+      "route": "/*",
+      "serve": "./public/index.html",
+      "statusCode": 200
     }
   ],
   "globalHeaders": {
     "Access-Control-Allow-Origin": "*",
-
     "Access-Control-Allow-Methods": "POST, GET, OPTIONS"
   }
 }
