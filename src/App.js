@@ -5,7 +5,7 @@ function App() {
     <div className="App">
       <p>Estamos en App.js</p>
     </div>
-  );
+  )
 }
 
 export default App;
