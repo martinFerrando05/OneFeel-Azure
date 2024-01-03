@@ -2,7 +2,7 @@
   "trailingSlash": "never",
   "routes": [
     {
-      "route": "/public/index.html",
+      "route": "/index.html",
       "rewrite": "/public/index.html"
     },
     {
